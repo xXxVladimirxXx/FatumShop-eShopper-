@@ -1,0 +1,4 @@
+2018-06-15T11:25:46+00:00 CRITICAL Cannot redeclare fatum_comment() (previously declared in /home/l/l9971350/fatum/public_html/wp-content/themes/eShopper/comments.php:2)
+
+2018-06-15T16:09:13+00:00 CRITICAL Call to undefined function settings_errors()
+

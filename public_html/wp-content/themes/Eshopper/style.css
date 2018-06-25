@@ -1,0 +1,299 @@
+
+/*
+	**Меню и пагинация**
+*/
+.mainmenu ul li:hover > a, .mainmenu ul li.current-menu-item > a, .mainmenu li.bordered-menu a, .bordered-btn, .bordered-btn:hover, .service-box-style-5:hover {
+	background:none;
+	color:#fdb45e;
+}
+
+.pagination>li>span.current, .pagination>li>a:focus, .pagination>li>span:focus {
+	background:#FE980F !important;
+	color: #fff !important;
+	padding: 4px 12px !important;
+}
+
+.productinfo h4{
+	color: #FE980F;
+	font-family: 'Roboto', sans-serif;
+}
+.product-overlay h4{
+	color: #FE980F;
+	font-family: 'Roboto', sans-serif;
+}
+/*
+	**Страница товара**
+*/
+.cart{
+	background: #FE980F !important;
+	color: #FFFFFF !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+span>form.cart{
+	background: white !important;
+	color: #FFFFFF !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.product-information {
+	border: 1px solid #F7F7F0;
+	overflow: hidden;
+	padding-bottom: 0px !important;
+	padding-left: 30px !important;
+	padding-top: 0px !important;
+	position: relative;
+	font-size: 14px;
+}
+
+/*
+	**Корзина**
+*/
+
+img.attachment-woocommerce_thumbnail{
+	width: 110px !important;
+	height: 110px !important;
+}
+
+.table-condensed a {
+	color: black !important;
+}
+tr.product {
+	border-bottom: 1px solid#F7F7F0 !important;
+	border-collapse: collapse !important;
+	height: 146px !important;
+}
+
+.cart_product {
+	margin: 15px -70px 10px 25px !important;
+}
+
+.cart_delete a {
+	color: white !important;
+}
+
+.breadcrumb li a:after {
+	top: 10px !important;
+	left: 65px !important;
+}
+
+td.product-quantity>input {
+	width: 45px !important;
+	color: #696763 !important;
+	font-size: 16px !important;
+	text-align: center !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+button.button {
+	background: #FE980F !important;
+	border-radius: 0;
+	color: #FFFFFF!important;
+	margin-top: 18px;
+	border: none;
+	padding: 5px 15px;
+}
+
+input.btn-default {
+	background: #FE980F !important;
+	border: medium none !important;
+	border-radius: 0 !important;
+	color: #FFFFFF !important;
+	display: block !important;
+	font-family: 'Roboto', sans-serif !important;
+	padding: 6px 25px !important;
+	height: 32px !important;
+	text-align: center !important;
+}
+
+
+input.btn-default:active {
+	background-color: #d58512 !important;
+	color: whitesmoke !important;
+}
+
+a.btn .btn-default .checkout-button .button .alt .wc-forward{
+	background: #FE980F !important;
+	color: #FFFFFF !important;
+}
+
+/*
+**Див для вывода результатов регистрации или авторизации**
+*/
+div#foo{
+	text-align: center !important;
+    position: absolute !important;
+    width: 95% !important;
+}
+
+/*
+  Кнопка поиска и сам поиск
+ */
+.search_box input {
+	height: 32px !important;
+}
+
+input#searchsubmit {
+	background: #FE980F !important;
+	border: medium none !important;
+	border-radius: 0 !important;
+	color: #FFFFFF !important;
+	font-family: 'Roboto', sans-serif !important;
+	padding: 6px 20px !important;
+	text-align: center !important;
+	width: 100px !important;
+}
+
+.wysija-submit {
+	background: #FE980F !important;
+	border: medium none !important;
+	border-radius: 0 !important;
+	color: #FFFFFF !important;
+	display: block !important;
+	font-family: 'Roboto', sans-serif !important;
+	padding: 6px 25px !important;
+	height: 32px !important;
+	text-align: center !important;
+}
+
+input.wysija-input {
+	border: 1px solid #DDDDDD !important;
+	color: #CCCCC6 !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 14px !important;
+	margin-top: 0 !important;
+	outline: medium none !important;
+	padding: 7px !important;
+	width: 212px !important;
+}
+
+ul.tag>li>a{
+	color: #FE980F !important;
+}
+
+.response-area .media img {
+    height: 100% !important;
+}
+
+a.comment-reply-link {
+    background: #FE980F !important;
+    color: #FFFFFF !important;
+    font-family: 'Roboto', sans-serif !important;
+    padding: 1px 7px !important;
+    margin-top: 16px !important;
+	text-align: center !important;
+    text-transform: uppercase !important;
+    font-size: 10px !important;
+	width: 76px !important;
+}
+
+.text-area {
+	margin-top: 0px !important;
+}
+
+p.form-submit>input.submit{
+	display: none !important;
+}
+
+p.form-submit>input.btn-default{
+	width: 150px !important;
+	margin-top: 7px !important;
+}
+
+p.logged-in-as>a{
+	color: #0f0f0f;
+}
+div.comment-content>a>i.fa{
+	color: white !important;
+	padding: 0px !important;
+}
+
+div.replay-box>div.row{
+	 margin-right: 0px !important;
+	 margin-left: 0px !important;
+}
+
+#coupon_code {
+	background: #E6E4DF;
+	border: 0;
+	color: #696763;
+	padding: 5px;
+	width: 100%;
+	border-radius: 0;
+	resize: none;
+}
+div.coupon>input.button{
+	background: #E6E4DF !important;
+	margin-top: 10px;
+}
+
+div#messedge-cart {
+	padding: 1em 0em 0em 3em !important;
+}
+
+div#messedge-cart>.woocommerce-error, .woocommerce-info, .woocommerce-message{
+	padding: 1em 0em 0em 3em !important;
+}
+
+div#total-checkout{
+	float: right;
+	background: #E6E4DF;
+	color: #696763;
+	margin-top: 10px;
+	padding: 7px 20px;
+}
+
+a#rewrite_cart{
+	float: right !important;
+	background-color: #FE980F !important;
+	color: white !important;
+	padding: 6px 20px !important;
+	height: 32px !important;
+}
+
+table#table-checkout{
+	width: 20% !important;
+	text-align: right !important;
+	float: right !important;
+}
+
+div#payment{
+	margin-top: 12%;
+}
+
+.woocommerce-checkout #payment{
+	background: white !important;
+}
+input.input-text, select#billing_country, span.select2 .select2-container{
+	background: #F0F0E9 !important;
+	border: 0 none;
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+	font-weight: 300;
+}
+
+.wpcf7-textarea {
+	height: 160px !important;
+}
+
+div.product-information>span>span>del>span.woocommerce-Price-amount .amount {
+	display: none !important;
+}
+
+.woocommerce nav.woocommerce-pagination {
+	display: none;
+}
+
+h4#prise-slider{
+	background-color: #FE980F;
+	color: white;
+	border-radius: 200%;
+	border: #843534 double 30px;
+	padding: 3%;
+}
+
+div.cart-is-empty{
+	margin-left: 40% !important;
+	margin-bottom: 25%;
+}
