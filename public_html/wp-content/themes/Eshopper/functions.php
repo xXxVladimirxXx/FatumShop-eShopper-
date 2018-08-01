@@ -5,11 +5,14 @@ function eShopper_scripts_and_style() {
 	
 	//Подключаем скрипты	
 	wp_enqueue_script('bootstrap.min', get_template_directory_uri() . '/assets/js/bootstrap.min.js');
+    	wp_enqueue_script('jquery-1.7.2.min', get_template_directory_uri() . '/assets/js/jquery-1.7.2.min.js');
 	wp_enqueue_script('jquery.min', get_template_directory_uri() . '/assets/js/jquery.js');
 	wp_enqueue_script('jquery.scrollUp.min', get_template_directory_uri() . '/assets/js/jquery.scrollUp.min.js');
+    	wp_enqueue_script('jquery.prettyPhoto', get_template_directory_uri() . '/assets/js/jquery.prettyPhoto.js');
+   	wp_enqueue_script('jquery.scrollUp.min', get_template_directory_uri() . '/assets/js/jquery.scrollUp.min.js');
+    	wp_enqueue_script('jquery-ui-1.8.19.custom.min', get_template_directory_uri() . '/assets/js/jquery-ui-1.8.19.custom.min.js');
 	wp_enqueue_script('price-range', get_template_directory_uri() . '/assets/js/price-range.js');
-	wp_enqueue_script('jquery.prettyPhoto', get_template_directory_uri() . '/assets/js/jquery.prettyPhoto.js');
-	wp_enqueue_script('jquery.scrollUp.min', get_template_directory_uri() . '/assets/js/jquery.scrollUp.min.js');
+	wp_enqueue_script('cart.min', get_template_directory_uri() . '/assets/js/cart.min.js');
 	wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js');
 	wp_enqueue_script('contact', get_template_directory_uri() . '/assets/js/contact.js');
 	wp_enqueue_script('html5shiv', get_template_directory_uri() . '/assets/js/html5shiv.js');
@@ -18,6 +21,7 @@ function eShopper_scripts_and_style() {
 	//Подключаем стили
 	wp_enqueue_style('eShopper-style', get_stylesheet_uri());
 	wp_enqueue_style('bootstrap.min', get_template_directory_uri() . '/assets/css/bootstrap.min.css');
+   	wp_enqueue_style('jquery-ui-1.8.19.custom', get_template_directory_uri() . '/assets/css/jquery-ui-1.8.19.custom.css');
 	wp_enqueue_style('font-awesome.min', get_template_directory_uri() . '/assets/css/font-awesome.min.css');
 	wp_enqueue_style('prettyPhoto', get_template_directory_uri() . '/assets/css/prettyPhoto.css');
 	wp_enqueue_style('price-range', get_template_directory_uri() . '/assets/css/price-range.css');
@@ -26,6 +30,7 @@ function eShopper_scripts_and_style() {
 	wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css');
 
 }
+
 
 add_action ('after_setup_theme', 'fatum_theme_seting');
 function fatum_theme_seting() {
